@@ -1,3 +1,29 @@
+## Follow the instructions to launch the application
+
+1. Start Apache and MySQL from the XAMPP control panel.
+2. Clone the repository.
+3. Go to client directory.
+4. Open terminal.
+5. "npm install" run this command to install npm.
+6. Then go to server directory.
+7. Open terminal and run these following command:
+	-> "cp .env.example .env"
+	-> "composer install"
+	-> "php artisan key:generate"
+8. Open the .env file in your server directory and edit the database name to "your_database_name", username to "root" and password to "".
+9. Now create a database by the name "your_database_name".
+10. "php artisan migrate" run this command in the server directory.
+11. Run "php artisan serve" on server directory and "npm start" in the client directory.
+
+** if composer isn't installed on your composer then install it from https://getcomposer.org/
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
