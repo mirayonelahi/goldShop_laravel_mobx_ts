@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class SideBar extends Component {
   render() {
@@ -24,9 +25,9 @@ export default class SideBar extends Component {
 
           <ul className="sidebar-menu" data-widget="tree">
             <li className="active">
-              <a href="#">
+              <Link to="/">
                 <i className="fa fa-link" /> <span>Welcome</span>
-              </a>
+              </Link>
             </li>
             <li className="treeview">
               <a>
@@ -37,21 +38,21 @@ export default class SideBar extends Component {
               </a>
               <ul className="treeview-menu">
                 <li>
-                  <a href="#">
+                  <Link to="/content">
                     <i className="fa fa-link" /> <span>Invenotry</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="/sale">
                     <i className="fa fa-link" /> <span>Sales</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="#">
+              <Link to="/report">
                 <i className="fa fa-link" /> <span>Report</span>
-              </a>
+              </Link>
             </li>
           </ul>
         </section>
