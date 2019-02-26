@@ -33,7 +33,7 @@ class ItemController extends Controller
             'carat'=>$request['carat'],
             'weight'=>$request['weight'],
             'sold'=>$request['sold'],
-            'selling_date'=>$request['selling_date']
+            // 'sellingDate'=>$request['sellingDate']
         ]);
 
     }
