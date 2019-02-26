@@ -18,6 +18,7 @@ class CreateItemsTable extends Migration
             $table->string('token');
             $table->string('name');
             $table->string('category');
+            $table->integer('carat');
             $table->float('weight', 8, 2);
             $table->boolean('sold')->default(false);
             $table->dateTime('selling_date')->nullable();

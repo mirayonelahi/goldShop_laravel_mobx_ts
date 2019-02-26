@@ -30,6 +30,7 @@ class ItemController extends Controller
             'token'=>$request['token'],
             'name'=>$request['name'],
             'category'=>$request['category'],
+            'carat'=>$request['carat'],
             'weight'=>$request['weight'],
             'sold'=>$request['sold'],
             'selling_date'=>$request['selling_date']

@@ -1,28 +1,63 @@
-.App {
+/* Header----------------------------------------------------------------------------------------------------- */
+
+/* Sidebar----------------------------------------------------------------------------------------------------- */
+
+/* Content----------------------------------------------------------------------------------------------------- */
+.contentContainer{
+  background-color: #fff;
+}
+.caratCol{
+  display: inline-block;
+}
+.caratCol button{
+  margin: 10px;
+}
+.categoryCol{
+  display: block;
+}
+.categoryCol button{
+  width: 100%;
+  margin: 10px;
+}
+/* Carat----------------------------------------------------------------------------------------------------- */
+
+/* Category----------------------------------------------------------------------------------------------------- */
+
+/* Table----------------------------------------------------------------------------------------------------- */
+
+/* Info----------------------------------------------------------------------------------------------------- */
+.listBlockRow{
+  margin: 10px 0px;
+}
+.updateItemBlock button{
+  width: 100%;
+}
+.listBlockHeaderCol{
+  padding: 0px;
+}
+.listBlockSubheaderCol{
+  padding: 0px;
+}
+.listBlockHeaderCol p{
+  font-size: 24px;
   text-align: center;
+  background-color: gold;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
+.listBlockSubheaderCol p{
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(139, 122, 26);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* Footer----------------------------------------------------------------------------------------------------- */
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+/* ----------------------------------------------------------------------------------------------------- */
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+/* ----------------------------------------------------------------------------------------------------- */
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+/* ----------------------------------------------------------------------------------------------------- */
