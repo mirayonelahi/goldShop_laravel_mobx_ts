@@ -4,8 +4,7 @@ import { Component } from 'react';
 export default class Sale extends Component {
   render() {
     return (
-      <React.Fragment>
-        <div className="container content-wrapper">
+        <div className="container content-wrapper saleContainer">
           <h1>this is the Sale page</h1>
           <h1>this is the Sale page</h1>
           <h1>this is the Sale page</h1>
@@ -14,7 +13,6 @@ export default class Sale extends Component {
           <h1>this is the Sale page</h1>
           <h1>this is the Sale page</h1>
         </div>
-      </React.Fragment>
     );
   }
 }

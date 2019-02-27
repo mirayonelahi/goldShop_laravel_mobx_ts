@@ -3,10 +3,15 @@ import * as ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
-// import 'bootstrap/dist/css/bootstrap.css';
+import { Provider } from 'mobx-react';
+import Store from './models/Store';
+
+const store = Store.create();
 
 ReactDOM.render(
-  <App />,
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById('root') as HTMLElement
 );
 registerServiceWorker();

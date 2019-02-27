@@ -7,10 +7,10 @@ export default class Header extends Component {
       <header className="main-header">
         <a href="index2.html" className="logo">
           <span className="logo-mini">
-            <b>A</b>LT
+            <b>G</b>S
           </span>
           <span className="logo-lg">
-            <b>Admin</b>LTE
+            Shop<b>Gold</b>
           </span>
         </a>
 
@@ -32,7 +32,7 @@ export default class Header extends Component {
                     className="user-image"
                     alt="User Image"
                   />
-                  <span className="hidden-xs">Alexander Pierce</span>
+                  <span className="hidden-xs">RedX Solutions</span>
                 </a>
                 <ul className="dropdown-menu">
                   <li className="user-header">
@@ -42,8 +42,8 @@ export default class Header extends Component {
                       alt="User Image"
                     />
                     <p>
-                      Alexander Pierce - Web Developer
-                      <small>Member since Nov. 2012</small>
+                    RedX Solutions -  digital agency
+                      <small>Since IDK</small>
                     </p>
                   </li>
                   <li className="user-footer">

@@ -2,7 +2,7 @@ import * as React from 'react';
 import './App.css';
 import Header from './components/Header';
 import SideBar from './components/Sidebar';
-import Content from './components/Content';
+import { Content } from './components/Content';
 import Footer from './components/Footer';
 import Welcome from './components/Welcome';
 import Sale from './components/Sale';
@@ -24,6 +24,7 @@ class App extends React.Component {
                 exact={true}
                 strict={true}
                 component={Content}
+                // render={(props) => <Content {...props} />}
               />
               <Route path="/sale" exact={true} strict={true} component={Sale} />
               <Route
